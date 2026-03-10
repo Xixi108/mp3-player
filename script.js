@@ -12,9 +12,9 @@ const player        = document.getElementById('player');
 const animeGirlEl   = document.querySelector('.anime-girl');
 
 const defaultTracks = [
-  { url: '.mp3/Avril Lavigne - Take Me Away.mp3',                             name: 'Take Me Away' },
-  { url: '.mp3/Avril Lavigne - My Happy Ending (Official Video - Clean).mp3', name: 'My Happy Ending' },
-  { url: '.mp3/Avril Lavigne - Don t Tell Me (Official Video).mp3',           name: "Don't Tell Me" },
+  { url: 'music/Avril Lavigne - Take Me Away.mp3',                             name: 'Take Me Away' },
+  { url: 'music/Avril Lavigne - My Happy Ending (Official Video - Clean).mp3', name: 'My Happy Ending' },
+  { url: 'music/Avril Lavigne - Don t Tell Me (Official Video).mp3',           name: "Don't Tell Me" },
 ];
 
 let playlist     = [...defaultTracks];
